@@ -1,0 +1,23 @@
+{
+  "name": "omegle",
+  "version": "1.0.0",
+  "description": "This is a Video Chat Application",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "watch": "npx watchify ./public/main.js -o ./public/bundle.js "
+  },
+  "author": "Himanshu Bohra",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.27.0",
+    "mongoose": "^5.9.23",
+    "nodemon": "^2.0.4",
+    "simple-peer": "^9.7.2",
+    "socket.io": "^2.3.0",
+    "watch": "^1.0.2"
+  },
+  "devDependencies": {
+    "watchify": "^3.11.1"
+  }
+}
