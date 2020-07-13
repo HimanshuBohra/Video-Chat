@@ -11,31 +11,7 @@
   integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
   crossorigin="anonymous"></script>
     </head>
-    <style>
-        .side_bar{
-                background-color:rgba(0, 0, 0, 0.1);
-                border-radius: 10px;
-                width :25%;
-                height:auto;
-                margin-top: 7px;
-                margin-left: 9px;
-                position: sticky;
-                padding: 2px;
-                float : left;
-            }
-            .main{
-                background-color: #fbfbfb;
-                border-radius: 10px;
-                width:70%;
-                height: auto;
-                margin-top: 7px;
-                margin-left: 9px;  
-                padding: 2px;
-                float : left;
-            }
-    </style>
     <body>
-        <div>
             <div class="container-fluid side_bar">
                 <div class="row h-100 w-100">
                     <div class="container-fluid">
@@ -54,22 +30,6 @@
                     </div>
                 </div>
             </div>
-            <div class="main">
-                <div class=”container”>
-                    <br>
-                    <div class=”jumbotron”>
-                    <h1 class=”display-4">Send Message</h1>
-                    <br>
-                    <textarea style="width:100%" id = “message” class=”form-control” placeholder=”Your Message Here”>
-                   </textarea>
-                    <br>
-                    <button id=”send” class=”btn btn-success”>Send</button>
-                    </div>
-                    <div id=”messages”>
-                   </div>
-                   </div>
-            </div>
-        </div>
         <script src="/socket.io/socket.io.js"></script>
         <script src="bundle.js"></script>
     </body>
