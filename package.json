@@ -12,7 +12,7 @@
     "node": "12.x"
   },
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "moment": "^2.27.0",
     "mongoose": "^5.9.23",
     "nodemon": "^2.0.4",
